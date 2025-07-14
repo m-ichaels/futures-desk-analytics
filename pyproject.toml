@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "futdesk"
+version = "0.1.0"
+description = "Futures desk microstructure and analytics on CME: Globex matching rules (FIFO, pro-rata with TOP, implied spreads), queue-position value on recorded MDP3 depth, roll dynamics and cost from settlements, P&L attribution with margin and variation, and a positions-and-limits monitor with fault injection"
+requires-python = ">=3.10"
+dependencies = ["numpy", "pandas", "pyarrow", "duckdb", "scipy", "matplotlib", "fpdf2", "xlrd", "pybind11", "setuptools", "tzdata"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+databento = ["databento"]
+
+[tool.setuptools]
+packages = ["futdesk"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q"

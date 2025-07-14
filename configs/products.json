@@ -1,0 +1,42 @@
+{
+  "_note": "Contract specifications from the CME rulebooks (tick, multiplier, months, last-trading-day and first-notice rules, matching algorithm). Fees are the public non-member exchange+clearing fee per side and margins the outright initial margin, both approximate as of 2025 and meant to be replaced by the desk's own schedule (configs/fees_margins are inputs, not results). Matching parameters: FIFO = F; A = TOP order then pro-rata with a 2-lot minimum allocation and a FIFO leftover pass (SR3 outrights); Y = the configurable algorithm, here TOP then a FIFO share then pro-rata (ZT/ZQ style, split parameters illustrative).",
+  "products": {
+    "ES": {"name": "E-mini S&P 500", "exchange": "CME", "yahoo_suffix": "CME", "tick": 0.25, "multiplier": 50.0, "spread_tick": 0.05, "months": "HMUZ",
+           "ltd_rule": "third_friday", "fnd_rule": null, "settlement": "cash", "matching": "F", "fee_per_side": 1.45, "initial_margin": 18000.0, "maintenance_margin": 16400.0,
+           "price_scan_range": 18000.0, "underlying_index": "SPY", "asset_class": "equity"},
+    "NQ": {"name": "E-mini Nasdaq-100", "exchange": "CME", "yahoo_suffix": "CME", "tick": 0.25, "multiplier": 20.0, "spread_tick": 0.05, "months": "HMUZ",
+           "ltd_rule": "third_friday", "fnd_rule": null, "settlement": "cash", "matching": "F", "fee_per_side": 1.45, "initial_margin": 27000.0, "maintenance_margin": 24500.0,
+           "price_scan_range": 27000.0, "underlying_index": "QQQ", "asset_class": "equity"},
+    "ZN": {"name": "10-Year T-Note", "exchange": "CBOT", "yahoo_suffix": "CBT", "tick": 0.015625, "multiplier": 1000.0, "spread_tick": 0.0078125, "months": "HMUZ",
+           "ltd_rule": "cbot_treasury", "fnd_rule": "last_bd_prior_month", "settlement": "physical", "matching": "F", "fee_per_side": 0.85, "initial_margin": 2300.0, "maintenance_margin": 2100.0,
+           "price_scan_range": 2300.0, "asset_class": "rates"},
+    "ZB": {"name": "30-Year T-Bond", "exchange": "CBOT", "yahoo_suffix": "CBT", "tick": 0.03125, "multiplier": 1000.0, "spread_tick": 0.015625, "months": "HMUZ",
+           "ltd_rule": "cbot_treasury", "fnd_rule": "last_bd_prior_month", "settlement": "physical", "matching": "F", "fee_per_side": 0.85, "initial_margin": 4600.0, "maintenance_margin": 4200.0,
+           "price_scan_range": 4600.0, "asset_class": "rates"},
+    "ZT": {"name": "2-Year T-Note", "exchange": "CBOT", "yahoo_suffix": "CBT", "tick": 0.0078125, "multiplier": 2000.0, "spread_tick": 0.00390625, "months": "HMUZ",
+           "ltd_rule": "cbot_treasury", "fnd_rule": "last_bd_prior_month", "settlement": "physical", "matching": "Y", "matching_params": {"top": true, "top_min": 1, "top_max": 1000, "fifo_pct": 0.4, "prorata_min": 2},
+           "fee_per_side": 0.85, "initial_margin": 1100.0, "maintenance_margin": 1000.0, "price_scan_range": 1100.0, "asset_class": "rates"},
+    "SR3": {"name": "Three-Month SOFR", "exchange": "CME", "yahoo_suffix": "CME", "tick": 0.005, "multiplier": 2500.0, "spread_tick": 0.005, "months": "HMUZ",
+            "ltd_rule": "imm_wednesday_minus_1", "fnd_rule": null, "settlement": "cash", "matching": "A", "matching_params": {"top": true, "top_min": 1, "top_max": 1000, "prorata_min": 2},
+            "fee_per_side": 0.70, "initial_margin": 650.0, "maintenance_margin": 600.0, "price_scan_range": 650.0, "asset_class": "rates"},
+    "ZQ": {"name": "30-Day Fed Funds", "exchange": "CBOT", "yahoo_suffix": "CBT", "tick": 0.005, "multiplier": 4167.0, "spread_tick": 0.005, "months": "FGHJKMNQUVXZ",
+           "ltd_rule": "last_bd_of_month", "fnd_rule": null, "settlement": "cash", "matching": "Y", "matching_params": {"top": true, "top_min": 1, "top_max": 1000, "fifo_pct": 0.0, "prorata_min": 2},
+           "fee_per_side": 0.70, "initial_margin": 700.0, "maintenance_margin": 650.0, "price_scan_range": 700.0, "asset_class": "rates"},
+    "CL": {"name": "WTI Crude Oil", "exchange": "NYMEX", "yahoo_suffix": "NYM", "tick": 0.01, "multiplier": 1000.0, "spread_tick": 0.01, "months": "FGHJKMNQUVXZ",
+           "ltd_rule": "nymex_cl", "fnd_rule": "bd_after_ltd", "settlement": "physical", "matching": "F", "fee_per_side": 1.60, "initial_margin": 6500.0, "maintenance_margin": 5900.0,
+           "price_scan_range": 6500.0, "asset_class": "energy", "eia_series": ["RCLC1d", "RCLC2d", "RCLC3d", "RCLC4d"], "eia_folder": "pet"},
+    "NG": {"name": "Henry Hub Natural Gas", "exchange": "NYMEX", "yahoo_suffix": "NYM", "tick": 0.001, "multiplier": 10000.0, "spread_tick": 0.001, "months": "FGHJKMNQUVXZ",
+           "ltd_rule": "nymex_ng", "fnd_rule": "bd_after_ltd", "settlement": "physical", "matching": "F", "fee_per_side": 1.60, "initial_margin": 4500.0, "maintenance_margin": 4100.0,
+           "price_scan_range": 4500.0, "asset_class": "energy", "eia_series": ["RNGC1d", "RNGC2d", "RNGC3d", "RNGC4d"], "eia_folder": "ng"},
+    "GC": {"name": "Gold", "exchange": "COMEX", "yahoo_suffix": "CMX", "tick": 0.1, "multiplier": 100.0, "spread_tick": 0.1, "months": "GJMQVZ",
+           "ltd_rule": "comex_metals", "fnd_rule": "last_bd_prior_month", "settlement": "physical", "matching": "F", "fee_per_side": 1.75, "initial_margin": 12000.0, "maintenance_margin": 11000.0,
+           "price_scan_range": 12000.0, "asset_class": "metals"}
+  },
+  "month_codes": {"F": 1, "G": 2, "H": 3, "J": 4, "K": 5, "M": 6, "N": 7, "Q": 8, "U": 9, "V": 10, "X": 11, "Z": 12},
+  "span": {
+    "_note": "SPAN-style parameters for the book margin: the price scan range per product (above, = the outright initial margin), the intra-commodity calendar spread charge as a fraction of the outright scan, and inter-commodity spread credits by pair (fraction of the smaller leg's scan risk offset).",
+    "calendar_spread_charge": {"ES": 0.06, "NQ": 0.06, "ZN": 0.15, "ZB": 0.15, "ZT": 0.15, "SR3": 0.20, "ZQ": 0.20, "CL": 0.30, "NG": 0.35, "GC": 0.10},
+    "intercommodity_credits": [["ES", "NQ", 0.70], ["ZN", "ZB", 0.60], ["ZT", "ZN", 0.55], ["SR3", "ZQ", 0.60], ["CL", "NG", 0.10], ["ZN", "SR3", 0.30]]
+  },
+  "financing": {"collateral_yield_spread_bp": 0.0, "_note": "financing cost of posted margin = margin x (SOFR - collateral yield); cash collateral earns nothing here, so the spread is 0 and the cost is SOFR"}
+}

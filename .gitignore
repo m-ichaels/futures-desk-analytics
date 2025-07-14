@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+build/
+*.pyd
+*.so
+data/raw/
+data/derived/*.duckdb
+data/derived/mbo_*.parquet
+data/derived/book_glbx*.parquet
+data/derived/shadow_*.parquet
+data/derived/mm_fills.parquet
+data/sample/derived/*
+!data/sample/derived/mbo_sample_es.parquet
+!data/sample/derived/book_sample_es.mbp10.parquet
+results/*.log
