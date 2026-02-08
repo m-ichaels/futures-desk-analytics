@@ -1,0 +1,9 @@
+{
+  "_note": "MBO days fetched through the paid Databento API when DATABENTO_API_KEY is set (the sign-up credit covers a few sessions): one rates contract (FIFO), one energy contract (FIFO) and one pro-rata rates contract (SR3, Allocation algorithm), on the same session as the public ES sample. Symbols are the contracts that were front on those days.",
+  "max_cost_per_request_usd": 15,
+  "requests": [
+    {"symbol": "ZNZ5", "root": "ZN", "days": ["2025-09-22"]},
+    {"symbol": "CLX5", "root": "CL", "days": ["2025-09-22"]},
+    {"symbol": "SR3Z5", "root": "SR3", "days": ["2025-09-22"]}
+  ]
+}

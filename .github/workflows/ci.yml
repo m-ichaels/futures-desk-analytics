@@ -1,0 +1,27 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test-and-pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install setuptools && pip install -e .[test]
+      - name: build the C++ replay (pybind11)
+        run: python build_ext.py build_ext --inplace && python -c "from futdesk import book; assert book.HAVE_EXT; print('extension ok')"
+      - name: unit tests (calendars, matching rules, the book against MBP-10, shadow fills, attribution identities, the monitor)
+        run: python -m pytest
+      - name: the whole pipeline on the committed sample (15 minutes of ESZ5 MBO, the settlement archive, EIA, SOFR)
+        env:
+          FUTDESK_DATA: data/sample
+          FUTDESK_RESULTS: build/ci_results
+        run: |
+          python -m futdesk run --fast
+          python scripts/plots.py build/ci_results
+          python scripts/summarize.py build/ci_results
+          python scripts/report.py build/ci_results build/ci_results/report.pdf
+          python -m futdesk sql "SELECT rule, variant, size, count(*) AS n, avg(filled * 1.0 / size) AS fill_share FROM shadows_esz5 GROUP BY 1, 2, 3 ORDER BY 1, 2, 3"
+      - name: the results notebook builds
+        run: python scripts/make_notebook.py
