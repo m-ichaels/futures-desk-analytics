@@ -1,0 +1,17 @@
+{
+  "_note": "The stated futures book for the P&L attribution: quantities in contracts (positive long), held continuously and rolled on each product's roll date; 'core' and 'hedge' label the two halves of each relative-value pair so the attribution can show what the hedge cost. Cash is the collateral pool that funds the margin.",
+  "name": "index-curve-commodity book",
+  "start": "2026-06-18",
+  "end": "2026-09-18",
+  "cash_usd": 3000000,
+  "positions": [
+    {"root": "ES", "qty": 40, "role": "core", "pair": "equity"},
+    {"root": "NQ", "qty": -20, "role": "hedge", "pair": "equity"},
+    {"root": "ZN", "qty": 100, "role": "core", "pair": "curve"},
+    {"root": "ZB", "qty": -30, "role": "hedge", "pair": "curve"},
+    {"root": "CL", "qty": 25, "role": "core", "pair": "energy"},
+    {"root": "GC", "qty": 10, "role": "core", "pair": "metals"}
+  ],
+  "intraday": {"_note": "the passive market maker replayed on the MBO tape: one lot each side at the touch, joined at the back of the queue, re-quoted when the touch moves, inventory hedged at the opposite touch when it reaches the limit",
+               "root": "ES", "size": 1, "inventory_limit": 5}
+}
