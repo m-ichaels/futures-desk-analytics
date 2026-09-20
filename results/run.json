@@ -1,0 +1,2452 @@
+{
+ "generated": "2026-09-19T07:10:25+00:00",
+ "fast": false,
+ "ext": true,
+ "tapes": [
+  {
+   "file": "mbo_glbx-mdp3-sample.parquet",
+   "symbol": "ESZ5",
+   "root": "ES",
+   "events": 3667804,
+   "start": "2025-09-22T00:00:00.009394+00:00",
+   "end": "2025-09-22T15:59:59.951415+00:00",
+   "hours": 15.999983894722222,
+   "validation": {
+    "packets": 2454586,
+    "fields": 147275160,
+    "mismatches": 67,
+    "match_rate": 0.9999995450692432
+   }
+  }
+ ],
+ "queue": {
+  "ESZ5": {
+   "book": {
+    "events": 3658972,
+    "trades": 153819,
+    "traded_lots": 493504,
+    "orders_added": 1430012,
+    "cancels": 1424501,
+    "modifies": 294477,
+    "spread_ticks_tw": 1.0450321688849458,
+    "touch_depth_tw": 24.258080543444354,
+    "touch_orders_tw": 15.275829607212053,
+    "share_time_one_tick": 0.9549689678870091,
+    "trade_size_mean": 3.2083422724110804,
+    "trade_size_p50": 1.0,
+    "trade_size_p99": 28.0,
+    "tick_value_usd": 12.5,
+    "by_hour": [
+     {
+      "hour": 0,
+      "spread_ticks": 1.07629846827756,
+      "touch_depth": 13.252162526398003,
+      "touch_orders": 10.00343489953693,
+      "seconds": 3599.995245,
+      "events": 72810,
+      "trades": 3375
+     },
+     {
+      "hour": 1,
+      "spread_ticks": 1.057258355827955,
+      "touch_depth": 13.326713366291928,
+      "touch_orders": 9.815123007697284,
+      "seconds": 3600.008331,
+      "events": 59514,
+      "trades": 2738
+     },
+     {
+      "hour": 2,
+      "spread_ticks": 1.04074757813521,
+      "touch_depth": 14.719444627648132,
+      "touch_orders": 9.938894121129175,
+      "seconds": 3600.000312,
+      "events": 31022,
+      "trades": 1345
+     },
+     {
+      "hour": 3,
+      "spread_ticks": 1.0416394106201456,
+      "touch_depth": 17.461864665067278,
+      "touch_orders": 12.054968882492535,
+      "seconds": 3600.8340359999997,
+      "events": 30885,
+      "trades": 1433
+     },
+     {
+      "hour": 4,
+      "spread_ticks": 1.0782020076484726,
+      "touch_depth": 17.700444147104992,
+      "touch_orders": 11.339816502459986,
+      "seconds": 3599.949841,
+      "events": 20841,
+      "trades": 1067
+     },
+     {
+      "hour": 5,
+      "spread_ticks": 1.0601761801580594,
+      "touch_depth": 15.371594636267798,
+      "touch_orders": 10.207648063162841,
+      "seconds": 3599.215411,
+      "events": 29761,
+      "trades": 1393
+     },
+     {
+      "hour": 6,
+      "spread_ticks": 1.0813371922236061,
+      "touch_depth": 16.248185833536102,
+      "touch_orders": 11.236441854414949,
+      "seconds": 3599.988689,
+      "events": 61822,
+      "trades": 3220
+     },
+     {
+      "hour": 7,
+      "spread_ticks": 1.0989901696228628,
+      "touch_depth": 16.105362467597566,
+      "touch_orders": 10.866263549049046,
+      "seconds": 3600.000438,
+      "events": 176401,
+      "trades": 7147
+     },
+     {
+      "hour": 8,
+      "spread_ticks": 1.0334279733985565,
+      "touch_depth": 17.27639818641312,
+      "touch_orders": 11.664109068315753,
+      "seconds": 3600.0042110000004,
+      "events": 114844,
+      "trades": 4975
+     },
+     {
+      "hour": 9,
+      "spread_ticks": 1.0344825159966307,
+      "touch_depth": 14.05927799391391,
+      "touch_orders": 10.321693014575748,
+      "seconds": 3600.006856,
+      "events": 93209,
+      "trades": 3516
+     },
+     {
+      "hour": 10,
+      "spread_ticks": 1.0285370550729473,
+      "touch_depth": 17.5188688735436,
+      "touch_orders": 11.899082742030407,
+      "seconds": 3599.9876910000003,
+      "events": 71178,
+      "trades": 3265
+     },
+     {
+      "hour": 11,
+      "spread_ticks": 1.026902600173478,
+      "touch_depth": 16.944362303327217,
+      "touch_orders": 11.106045032431858,
+      "seconds": 3600.0017610000004,
+      "events": 90140,
+      "trades": 4305
+     },
+     {
+      "hour": 12,
+      "spread_ticks": 1.0357604304838568,
+      "touch_depth": 21.233312602552463,
+      "touch_orders": 13.977033737976225,
+      "seconds": 3599.9978539999997,
+      "events": 123473,
+      "trades": 6518
+     },
+     {
+      "hour": 13,
+      "spread_ticks": 1.0226358973471825,
+      "touch_depth": 42.80065411046328,
+      "touch_orders": 25.831612448292997,
+      "seconds": 3600.0041770000003,
+      "events": 899842,
+      "trades": 37636
+     },
+     {
+      "hour": 14,
+      "spread_ticks": 1.0024101903384142,
+      "touch_depth": 66.747989595087,
+      "touch_orders": 37.338141303723496,
+      "seconds": 3599.9974199999997,
+      "events": 992944,
+      "trades": 41029
+     },
+     {
+      "hour": 15,
+      "spread_ticks": 1.001712731690236,
+      "touch_depth": 67.36278968230464,
+      "touch_orders": 36.81284690789058,
+      "seconds": 3599.950906,
+      "events": 790286,
+      "trades": 30857
+     }
+    ],
+    "span_hours": 15.999983894722222,
+    "start": "2025-09-22T00:00:00.009394+00:00",
+    "end": "2025-09-22T15:59:59.951415+00:00"
+   },
+   "matching_on_exchange": "F",
+   "n_insertions": 57540,
+   "n_shadows": 402780,
+   "n_shadow_fills": 1836867,
+   "tau_10s": {
+    "groups": {
+     "fifo_back_1": {
+      "rule": "fifo",
+      "variant": "back",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 50618.0,
+      "fill_share": 0.8797010775112964,
+      "p_any_fill": 0.8797879735835941,
+      "median_time_to_fill_s": 9.2551595,
+      "markout_per_filled_lot": 0.16918882610928918,
+      "half_spread_per_filled_lot": 0.31336678651862976,
+      "value_per_lot": 0.14883559263121307,
+      "ci": [
+       0.11814020681265207,
+       0.18089215122565186
+      ]
+     },
+     "fifo_mid_1": {
+      "rule": "fifo",
+      "variant": "mid",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 51403.0,
+      "fill_share": 0.8933437608620091,
+      "p_any_fill": 0.8934306569343066,
+      "median_time_to_fill_s": 7.084564,
+      "markout_per_filled_lot": 0.21815847324086143,
+      "half_spread_per_filled_lot": 0.391076396319281,
+      "value_per_lot": 0.1948905109489051,
+      "ci": [
+       0.1659660969032707,
+       0.22474842974806306
+      ]
+     },
+     "fifo_front_1": {
+      "rule": "fifo",
+      "variant": "front",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 54415.0,
+      "fill_share": 0.9456899548140424,
+      "p_any_fill": 0.945950643030935,
+      "median_time_to_fill_s": 3.431887,
+      "markout_per_filled_lot": 0.35299090324359095,
+      "half_spread_per_filled_lot": 0.5007626573555086,
+      "value_per_lot": 0.3338199513381995,
+      "ci": [
+       0.31307057386709247,
+       0.35451294751477236
+      ]
+     },
+     "prorata_back_1": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 49956.0,
+      "fill_share": 0.8681960375391032,
+      "p_any_fill": 0.8682829336114007,
+      "median_time_to_fill_s": 9.703010500000001,
+      "markout_per_filled_lot": 0.12278805348706862,
+      "half_spread_per_filled_lot": 0.2776243093922652,
+      "value_per_lot": 0.10660410149461244,
+      "ci": [
+       0.07380523660403619,
+       0.1380866813718767
+      ]
+     },
+     "prorata_back_10": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 10,
+      "n": 57540,
+      "lots_posted": 575400.0,
+      "lots_filled": 474632.0,
+      "fill_share": 0.8248731317344457,
+      "p_any_fill": 0.875738616614529,
+      "median_time_to_fill_s": 14.494858,
+      "markout_per_filled_lot": -0.0702049166512161,
+      "half_spread_per_filled_lot": 0.10459577103945794,
+      "value_per_lot": -0.05791014946124435,
+      "ci": [
+       -0.0824904197080292,
+       -0.031936358024893134
+      ]
+     },
+     "prorata_back_50": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 50,
+      "n": 57540,
+      "lots_posted": 2877000.0,
+      "lots_filled": 2015627.0,
+      "fill_share": 0.7006002780674313,
+      "p_any_fill": 0.8955683003128259,
+      "median_time_to_fill_s": 28.981622,
+      "markout_per_filled_lot": -0.4107084296846589,
+      "half_spread_per_filled_lot": -0.24400670362125532,
+      "value_per_lot": -0.2877424400417101,
+      "ci": [
+       -0.3233068719159166,
+       -0.25480926746611055
+      ]
+     },
+     "prorata_front_10": {
+      "rule": "prorata",
+      "variant": "front",
+      "size": 10,
+      "n": 57540,
+      "lots_posted": 575400.0,
+      "lots_filled": 504348.0,
+      "fill_share": 0.8765172054223149,
+      "p_any_fill": 0.9396593673965937,
+      "median_time_to_fill_s": 8.904635,
+      "markout_per_filled_lot": 0.11191677175283733,
+      "half_spread_per_filled_lot": 0.2980313196443725,
+      "value_per_lot": 0.09809697601668405,
+      "ci": [
+       0.07419311255847381,
+       0.12238416753562739
+      ]
+     }
+    },
+    "tau_s": 10,
+    "block_s": 300.0,
+    "n_boot": 1000,
+    "n_shadows": 402780,
+    "n_blocks": 192,
+    "queue_value_fifo": {
+     "ticks": 0.18498435870698646,
+     "ci": [
+      0.16399823531652732,
+      0.20564417786621433
+     ]
+    },
+    "queue_value_fifo_mid": {
+     "ticks": 0.04605491831769204,
+     "ci": [
+      0.038742249196891614,
+      0.05329066804071079
+     ]
+    },
+    "queue_value_prorata_top": {
+     "ticks": 0.1560071254779284,
+     "ci": [
+      0.14477860243055554,
+      0.16673245712106305
+     ]
+    },
+    "prorata_size_effect": {
+     "ticks": -0.39434654153632254,
+     "ci": [
+      -0.4298930543064245,
+      -0.3614504875412756
+     ]
+    },
+    "fifo_vs_prorata_back": {
+     "ticks": 0.04223149113660063,
+     "ci": [
+      0.03361068387208898,
+      0.051698370353962714
+     ]
+    }
+   },
+   "tau_1s": {
+    "groups": {
+     "fifo_back_1": {
+      "rule": "fifo",
+      "variant": "back",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 50622.0,
+      "fill_share": 0.8797705943691345,
+      "p_any_fill": 0.8797879735835941,
+      "median_time_to_fill_s": 9.2540785,
+      "markout_per_filled_lot": 0.12489629015052744,
+      "half_spread_per_filled_lot": 0.3133222709493896,
+      "value_per_lot": 0.10988008342022941,
+      "ci": [
+       0.07753865223286699,
+       0.14010362356621478
+      ]
+     },
+     "fifo_mid_1": {
+      "rule": "fifo",
+      "variant": "mid",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 51408.0,
+      "fill_share": 0.8934306569343066,
+      "p_any_fill": 0.8934306569343066,
+      "median_time_to_fill_s": 7.0830245000000005,
+      "markout_per_filled_lot": 0.1692246342981637,
+      "half_spread_per_filled_lot": 0.3910286336756925,
+      "value_per_lot": 0.15119047619047618,
+      "ci": [
+       0.12157967988865692,
+       0.18047539089683368
+      ]
+     },
+     "fifo_front_1": {
+      "rule": "fifo",
+      "variant": "front",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 54429.0,
+      "fill_share": 0.9459332638164755,
+      "p_any_fill": 0.945950643030935,
+      "median_time_to_fill_s": 3.431563,
+      "markout_per_filled_lot": 0.32336622021348915,
+      "half_spread_per_filled_lot": 0.5007440886292234,
+      "value_per_lot": 0.3058828640945429,
+      "ci": [
+       0.2833233592935349,
+       0.328043139503875
+      ]
+     },
+     "prorata_back_1": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 49960.0,
+      "fill_share": 0.8682655543969413,
+      "p_any_fill": 0.8682829336114007,
+      "median_time_to_fill_s": 9.7022385,
+      "markout_per_filled_lot": 0.07638110488390712,
+      "half_spread_per_filled_lot": 0.277582065652522,
+      "value_per_lot": 0.06631908237747654,
+      "ci": [
+       0.032977819437044205,
+       0.09726611191960134
+      ]
+     },
+     "prorata_back_10": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 10,
+      "n": 57540,
+      "lots_posted": 575400.0,
+      "lots_filled": 474695.0,
+      "fill_share": 0.8249826207855405,
+      "p_any_fill": 0.875738616614529,
+      "median_time_to_fill_s": 14.49078,
+      "markout_per_filled_lot": -0.1142312432193303,
+      "half_spread_per_filled_lot": 0.10453870379928164,
+      "value_per_lot": -0.09423879040667361,
+      "ci": [
+       -0.11492186834701947,
+       -0.07265521876082785
+      ]
+     },
+     "prorata_back_50": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 50,
+      "n": 57540,
+      "lots_posted": 2877000.0,
+      "lots_filled": 2015955.0,
+      "fill_share": 0.7007142857142857,
+      "p_any_fill": 0.8955683003128259,
+      "median_time_to_fill_s": 28.977998,
+      "markout_per_filled_lot": -0.45503421455340026,
+      "half_spread_per_filled_lot": -0.2439927974582766,
+      "value_per_lot": -0.31884897462634687,
+      "ci": [
+       -0.3467718584666163,
+       -0.2925518532986111
+      ]
+     },
+     "prorata_front_10": {
+      "rule": "prorata",
+      "variant": "front",
+      "size": 10,
+      "n": 57540,
+      "lots_posted": 575400.0,
+      "lots_filled": 504479.0,
+      "fill_share": 0.8767448731317344,
+      "p_any_fill": 0.9396593673965937,
+      "median_time_to_fill_s": 8.905342,
+      "markout_per_filled_lot": 0.07256694530396707,
+      "half_spread_per_filled_lot": 0.298052049738443,
+      "value_per_lot": 0.06362269725408412,
+      "ci": [
+       0.04178304223149114,
+       0.08282247350350798
+      ]
+     }
+    },
+    "tau_s": 1,
+    "block_s": 300.0,
+    "n_boot": 500,
+    "n_shadows": 402780,
+    "n_blocks": 192,
+    "queue_value_fifo": {
+     "ticks": 0.19600278067431348,
+     "ci": [
+      0.1781660142658316,
+      0.21350520652678975
+     ]
+    },
+    "queue_value_fifo_mid": {
+     "ticks": 0.04131039277024677,
+     "ci": [
+      0.0355446873482947,
+      0.04758167922538273
+     ]
+    },
+    "queue_value_prorata_top": {
+     "ticks": 0.15786148766075775,
+     "ci": [
+      0.14852685088633993,
+      0.16720240919360446
+     ]
+    },
+    "prorata_size_effect": {
+     "ticks": -0.3851680570038234,
+     "ci": [
+      -0.41828088915907097,
+      -0.34968720844462925
+     ]
+    },
+    "fifo_vs_prorata_back": {
+     "ticks": 0.04356100104275287,
+     "ci": [
+      0.03637382690302399,
+      0.05204361602312778
+     ]
+    }
+   },
+   "tau_60s": {
+    "groups": {
+     "fifo_back_1": {
+      "rule": "fifo",
+      "variant": "back",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 50580.0,
+      "fill_share": 0.8790406673618353,
+      "p_any_fill": 0.8797879735835941,
+      "median_time_to_fill_s": 9.259145499999999,
+      "markout_per_filled_lot": 0.14294187425860025,
+      "half_spread_per_filled_lot": 0.3134440490312376,
+      "value_per_lot": 0.1256517205422315,
+      "ci": [
+       0.0775067278836117,
+       0.1693671711899791
+      ]
+     },
+     "fifo_mid_1": {
+      "rule": "fifo",
+      "variant": "mid",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 51363.0,
+      "fill_share": 0.8926485922836288,
+      "p_any_fill": 0.8934306569343066,
+      "median_time_to_fill_s": 7.084564,
+      "markout_per_filled_lot": 0.1854934485913985,
+      "half_spread_per_filled_lot": 0.391118120047505,
+      "value_per_lot": 0.16558046576294752,
+      "ci": [
+       0.11953927951388889,
+       0.20823656889953365
+      ]
+     },
+     "fifo_front_1": {
+      "rule": "fifo",
+      "variant": "front",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 54373.0,
+      "fill_share": 0.9449600278067432,
+      "p_any_fill": 0.945950643030935,
+      "median_time_to_fill_s": 3.434961,
+      "markout_per_filled_lot": 0.3390009747484965,
+      "half_spread_per_filled_lot": 0.5007908336858368,
+      "value_per_lot": 0.32034237052485226,
+      "ci": [
+       0.2890460718902068,
+       0.3521193509380962
+      ]
+     },
+     "prorata_back_1": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 1,
+      "n": 57540,
+      "lots_posted": 57540.0,
+      "lots_filled": 49920.0,
+      "fill_share": 0.867570385818561,
+      "p_any_fill": 0.8682829336114007,
+      "median_time_to_fill_s": 9.7083895,
+      "markout_per_filled_lot": 0.10251402243589744,
+      "half_spread_per_filled_lot": 0.277724358974359,
+      "value_per_lot": 0.08893812999652416,
+      "ci": [
+       0.036781742637368206,
+       0.13542296663190823
+      ]
+     },
+     "prorata_back_10": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 10,
+      "n": 57540,
+      "lots_posted": 575400.0,
+      "lots_filled": 474324.0,
+      "fill_share": 0.8243378519290928,
+      "p_any_fill": 0.875738616614529,
+      "median_time_to_fill_s": 14.500511,
+      "markout_per_filled_lot": -0.08918481881583053,
+      "half_spread_per_filled_lot": 0.10458568404719137,
+      "value_per_lot": -0.07351842196732708,
+      "ci": [
+       -0.12374327256944445,
+       -0.02328394971620564
+      ]
+     },
+     "prorata_back_50": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 50,
+      "n": 57540,
+      "lots_posted": 2877000.0,
+      "lots_filled": 2014160.0,
+      "fill_share": 0.7000903719151894,
+      "p_any_fill": 0.8955683003128259,
+      "median_time_to_fill_s": 28.991808,
+      "markout_per_filled_lot": -0.4223810422210748,
+      "half_spread_per_filled_lot": -0.24423978234102553,
+      "value_per_lot": -0.29570490093847757,
+      "ci": [
+       -0.36912538532424316,
+       -0.23276053614876607
+      ]
+     },
+     "prorata_front_10": {
+      "rule": "prorata",
+      "variant": "front",
+      "size": 10,
+      "n": 57540,
+      "lots_posted": 575400.0,
+      "lots_filled": 503946.0,
+      "fill_share": 0.8758185610010427,
+      "p_any_fill": 0.9396593673965937,
+      "median_time_to_fill_s": 8.9125805,
+      "markout_per_filled_lot": 0.09178463565540752,
+      "half_spread_per_filled_lot": 0.2978999734098495,
+      "value_per_lot": 0.08038668752172402,
+      "ci": [
+       0.036859706291275635,
+       0.12390468138076585
+      ]
+     }
+    },
+    "tau_s": 60,
+    "block_s": 300.0,
+    "n_boot": 500,
+    "n_shadows": 402780,
+    "n_blocks": 192,
+    "queue_value_fifo": {
+     "ticks": 0.19469064998262076,
+     "ci": [
+      0.17123718282933612,
+      0.22133841675356275
+     ]
+    },
+    "queue_value_fifo_mid": {
+     "ticks": 0.039928745220716017,
+     "ci": [
+      0.03117095949590845,
+      0.05015824640109248
+     ]
+    },
+    "queue_value_prorata_top": {
+     "ticks": 0.15390510948905112,
+     "ci": [
+      0.13729466458116094,
+      0.17310778096729296
+     ]
+    },
+    "prorata_size_effect": {
+     "ticks": -0.38464303093500174,
+     "ci": [
+      -0.4383027024995954,
+      -0.34145220281543276
+     ]
+    },
+    "fifo_vs_prorata_back": {
+     "ticks": 0.036713590545707345,
+     "ci": [
+      0.027651258680555554,
+      0.04617527708780966
+     ]
+    }
+   },
+   "tau_10s_rth": {
+    "groups": {
+     "fifo_back_1": {
+      "rule": "fifo",
+      "variant": "back",
+      "size": 1,
+      "n": 9000,
+      "lots_posted": 9000.0,
+      "lots_filled": 8865.0,
+      "fill_share": 0.985,
+      "p_any_fill": 0.9855555555555555,
+      "median_time_to_fill_s": 2.538151,
+      "markout_per_filled_lot": 0.44873096446700506,
+      "half_spread_per_filled_lot": 0.5830795262267343,
+      "value_per_lot": 0.442,
+      "ci": [
+       0.3823430555555556,
+       0.5210055555555555
+      ]
+     },
+     "fifo_mid_1": {
+      "rule": "fifo",
+      "variant": "mid",
+      "size": 1,
+      "n": 9000,
+      "lots_posted": 9000.0,
+      "lots_filled": 8888.0,
+      "fill_share": 0.9875555555555555,
+      "p_any_fill": 0.9881111111111112,
+      "median_time_to_fill_s": 2.157012,
+      "markout_per_filled_lot": 0.4571332133213321,
+      "half_spread_per_filled_lot": 0.6477272727272727,
+      "value_per_lot": 0.4514444444444444,
+      "ci": [
+       0.39957638888888886,
+       0.5167069444444444
+      ]
+     },
+     "fifo_front_1": {
+      "rule": "fifo",
+      "variant": "front",
+      "size": 1,
+      "n": 9000,
+      "lots_posted": 9000.0,
+      "lots_filled": 8962.0,
+      "fill_share": 0.9957777777777778,
+      "p_any_fill": 0.9974444444444445,
+      "median_time_to_fill_s": 0.5031025,
+      "markout_per_filled_lot": 0.49882838652086586,
+      "half_spread_per_filled_lot": 0.5836866770810087,
+      "value_per_lot": 0.49672222222222223,
+      "ci": [
+       0.4721930555555556,
+       0.5210722222222222
+      ]
+     },
+     "prorata_back_1": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 1,
+      "n": 9000,
+      "lots_posted": 9000.0,
+      "lots_filled": 8827.0,
+      "fill_share": 0.9807777777777777,
+      "p_any_fill": 0.9813333333333333,
+      "median_time_to_fill_s": 2.701051,
+      "markout_per_filled_lot": 0.41135153506287525,
+      "half_spread_per_filled_lot": 0.5720516596805256,
+      "value_per_lot": 0.40344444444444444,
+      "ci": [
+       0.33621527777777777,
+       0.4805583333333333
+      ]
+     },
+     "prorata_back_10": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 10,
+      "n": 9000,
+      "lots_posted": 90000.0,
+      "lots_filled": 85082.0,
+      "fill_share": 0.9453555555555555,
+      "p_any_fill": 0.9817777777777777,
+      "median_time_to_fill_s": 2.5936434999999998,
+      "markout_per_filled_lot": 0.1529113090900543,
+      "half_spread_per_filled_lot": 0.3717648856397358,
+      "value_per_lot": 0.14455555555555555,
+      "ci": [
+       0.0907451388888889,
+       0.20589763888888887
+      ]
+     },
+     "prorata_back_50": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 50,
+      "n": 9000,
+      "lots_posted": 450000.0,
+      "lots_filled": 413458.0,
+      "fill_share": 0.9187955555555556,
+      "p_any_fill": 0.9838888888888889,
+      "median_time_to_fill_s": 4.118856,
+      "markout_per_filled_lot": -0.04867725379603249,
+      "half_spread_per_filled_lot": 0.1780930590289703,
+      "value_per_lot": -0.04472444444444444,
+      "ci": [
+       -0.09499824999999999,
+       0.009921638888888886
+      ]
+     },
+     "prorata_front_10": {
+      "rule": "prorata",
+      "variant": "front",
+      "size": 10,
+      "n": 9000,
+      "lots_posted": 90000.0,
+      "lots_filled": 87506.0,
+      "fill_share": 0.9722888888888889,
+      "p_any_fill": 0.9964444444444445,
+      "median_time_to_fill_s": 1.5928,
+      "markout_per_filled_lot": 0.33641693141041756,
+      "half_spread_per_filled_lot": 0.5322606449843439,
+      "value_per_lot": 0.32709444444444447,
+      "ci": [
+       0.28428611111111113,
+       0.3646827777777778
+      ]
+     }
+    },
+    "tau_s": 10,
+    "block_s": 300.0,
+    "n_boot": 500,
+    "n_shadows": 63000,
+    "n_blocks": 30,
+    "queue_value_fifo": {
+     "ticks": 0.05472222222222223,
+     "ci": [
+      -0.004797222222222213,
+      0.10486249999999998
+     ]
+    },
+    "queue_value_fifo_mid": {
+     "ticks": 0.009444444444444422,
+     "ci": [
+      -0.0077513888888888684,
+      0.024090277777777756
+     ]
+    },
+    "queue_value_prorata_top": {
+     "ticks": 0.18253888888888892,
+     "ci": [
+      0.15099333333333334,
+      0.2088672222222222
+     ]
+    },
+    "prorata_size_effect": {
+     "ticks": -0.4481688888888889,
+     "ci": [
+      -0.519389,
+      -0.3758814166666667
+     ]
+    },
+    "fifo_vs_prorata_back": {
+     "ticks": 0.038555555555555565,
+     "ci": [
+      0.01621666666666669,
+      0.06478888888888887
+     ]
+    }
+   },
+   "tau_10s_overnight": {
+    "groups": {
+     "fifo_back_1": {
+      "rule": "fifo",
+      "variant": "back",
+      "size": 1,
+      "n": 48540,
+      "lots_posted": 48540.0,
+      "lots_filled": 41753.0,
+      "fill_share": 0.8601771734651834,
+      "p_any_fill": 0.8601771734651834,
+      "median_time_to_fill_s": 11.280419,
+      "markout_per_filled_lot": 0.10983641893995641,
+      "half_spread_per_filled_lot": 0.2561013579862525,
+      "value_per_lot": 0.09447878038730943,
+      "ci": [
+       0.06324947756673072,
+       0.12705894845539123
+      ]
+     },
+     "fifo_mid_1": {
+      "rule": "fifo",
+      "variant": "mid",
+      "size": 1,
+      "n": 48540,
+      "lots_posted": 48540.0,
+      "lots_filled": 42515.0,
+      "fill_share": 0.8758755665430573,
+      "p_any_fill": 0.8758755665430573,
+      "median_time_to_fill_s": 8.710347,
+      "markout_per_filled_lot": 0.16819945901446548,
+      "half_spread_per_filled_lot": 0.33742208632247445,
+      "value_per_lot": 0.1473217964565307,
+      "ci": [
+       0.11794393004115226,
+       0.17914634773662552
+      ]
+     },
+     "fifo_front_1": {
+      "rule": "fifo",
+      "variant": "front",
+      "size": 1,
+      "n": 48540,
+      "lots_posted": 48540.0,
+      "lots_filled": 45453.0,
+      "fill_share": 0.9364029666254635,
+      "p_any_fill": 0.9364029666254635,
+      "median_time_to_fill_s": 4.705636,
+      "markout_per_filled_lot": 0.3242360240248168,
+      "half_spread_per_filled_lot": 0.4844124700239808,
+      "value_per_lot": 0.30361557478368356,
+      "ci": [
+       0.2810952056214297,
+       0.3267424825815915
+      ]
+     },
+     "prorata_back_1": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 1,
+      "n": 48540,
+      "lots_posted": 48540.0,
+      "lots_filled": 41129.0,
+      "fill_share": 0.8473217964565307,
+      "p_any_fill": 0.8473217964565307,
+      "median_time_to_fill_s": 11.734391,
+      "markout_per_filled_lot": 0.06085730263317853,
+      "half_spread_per_filled_lot": 0.21443507014515306,
+      "value_per_lot": 0.05156571899464359,
+      "ci": [
+       0.021462481068429025,
+       0.08141556823442035
+      ]
+     },
+     "prorata_back_10": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 10,
+      "n": 48540,
+      "lots_posted": 485400.0,
+      "lots_filled": 389550.0,
+      "fill_share": 0.8025339925834364,
+      "p_any_fill": 0.8560774618871034,
+      "median_time_to_fill_s": 16.708037,
+      "markout_per_filled_lot": -0.11893595173918624,
+      "half_spread_per_filled_lot": 0.046243101013990505,
+      "value_per_lot": -0.09545014421096003,
+      "ci": [
+       -0.12030126982582776,
+       -0.0720071300880088
+      ]
+     },
+     "prorata_back_50": {
+      "rule": "prorata",
+      "variant": "back",
+      "size": 50,
+      "n": 48540,
+      "lots_posted": 2427000.0,
+      "lots_filled": 1602169.0,
+      "fill_share": 0.6601437989287186,
+      "p_any_fill": 0.8791924186238154,
+      "median_time_to_fill_s": 34.035064500000004,
+      "markout_per_filled_lot": -0.504134707387298,
+      "half_spread_per_filled_lot": -0.3529343658502942,
+      "value_per_lot": -0.33280140090646887,
+      "ci": [
+       -0.3708805504115226,
+       -0.29911205682913394
+      ]
+     },
+     "prorata_front_10": {
+      "rule": "prorata",
+      "variant": "front",
+      "size": 10,
+      "n": 48540,
+      "lots_posted": 485400.0,
+      "lots_filled": 416842.0,
+      "fill_share": 0.8587597857437165,
+      "p_any_fill": 0.9291306139266584,
+      "median_time_to_fill_s": 11.171346,
+      "markout_per_filled_lot": 0.06478833706776188,
+      "half_spread_per_filled_lot": 0.2488604795102221,
+      "value_per_lot": 0.055637618459002884,
+      "ci": [
+       0.033324272309608896,
+       0.07841023959084831
+      ]
+     }
+    },
+    "tau_s": 10,
+    "block_s": 300.0,
+    "n_boot": 500,
+    "n_shadows": 339780,
+    "n_blocks": 162,
+    "queue_value_fifo": {
+     "ticks": 0.20913679439637411,
+     "ci": [
+      0.18815896207676325,
+      0.2305057148082373
+     ]
+    },
+    "queue_value_fifo_mid": {
+     "ticks": 0.052843016069221274,
+     "ci": [
+      0.04519070483437232,
+      0.0601040290049698
+     ]
+    },
+    "queue_value_prorata_top": {
+     "ticks": 0.1510877626699629,
+     "ci": [
+      0.1395347798347897,
+      0.16396171885729982
+     ]
+    },
+    "prorata_size_effect": {
+     "ticks": -0.38436711990111244,
+     "ci": [
+      -0.42464837175512576,
+      -0.34568448788260325
+     ]
+    },
+    "fifo_vs_prorata_back": {
+     "ticks": 0.04291306139266584,
+     "ci": [
+      0.03358206756241355,
+      0.05198143552982262
+     ]
+    }
+   },
+   "real_orders": {
+    "n_orders": 1044780,
+    "p_fill": 0.2692021286778078,
+    "p_cancel": 0.7284366086640249,
+    "median_life_s": 0.168182,
+    "median_life_filled_s": 0.490811,
+    "median_life_cancelled_s": 0.1226115,
+    "by_ahead": [
+     {
+      "ahead_bucket": "0-0",
+      "n": 42980,
+      "p_fill": 0.7137273150302467,
+      "median_life_s": 0.000524,
+      "mean_size": 2.1552582596556538,
+      "markout_10s": 0.0368999478215497
+     },
+     {
+      "ahead_bucket": "1-4",
+      "n": 86247,
+      "p_fill": 0.5072292369589667,
+      "median_life_s": 0.020319,
+      "mean_size": 1.8407017055665704,
+      "markout_10s": 0.042209722412768096
+     },
+     {
+      "ahead_bucket": "5-9",
+      "n": 115888,
+      "p_fill": 0.3670181554604446,
+      "median_life_s": 0.167721,
+      "mean_size": 1.7330267154493995,
+      "markout_10s": 0.04373236124176858
+     },
+     {
+      "ahead_bucket": "10-19",
+      "n": 191908,
+      "p_fill": 0.2923744711007358,
+      "median_life_s": 0.22177750000000002,
+      "mean_size": 1.7889509556662568,
+      "markout_10s": 0.04284033373743136
+     },
+     {
+      "ahead_bucket": "20-49",
+      "n": 363514,
+      "p_fill": 0.21279785647870508,
+      "median_life_s": 0.14460499999999998,
+      "mean_size": 1.7986790054853459,
+      "markout_10s": 0.021691609214730116
+     },
+     {
+      "ahead_bucket": "50-99",
+      "n": 224627,
+      "p_fill": 0.12612909400917965,
+      "median_life_s": 0.311528,
+      "mean_size": 1.8277054850930654,
+      "markout_10s": 0.01918050158954433
+     },
+     {
+      "ahead_bucket": "100+",
+      "n": 19616,
+      "p_fill": 0.12770187601957586,
+      "median_life_s": 0.4342955,
+      "mean_size": 1.9024775693311582,
+      "markout_10s": 0.020958083832335328
+     }
+    ],
+    "mean_size": 1.8159373265185015,
+    "share_one_lot": 0.6628074810007849
+   }
+  }
+ },
+ "mm": {
+  "ESZ5": {
+   "fills": 43972,
+   "passive_fills": 42946,
+   "hedges": 1026,
+   "lots": 48076.0,
+   "hedge_lots": 5130.0,
+   "ticks": {
+    "spread_capture": 10189.5,
+    "inventory": -8455.5,
+    "hedge": -3480.0,
+    "total": -1746.0,
+    "identity_gap": 0.0
+   },
+   "usd": {
+    "spread_capture": 127368.75,
+    "inventory": -105693.75,
+    "hedge": -43500.0,
+    "fees": -69710.2,
+    "total_after_fees": -91535.2
+   },
+   "per_passive_lot_usd": {
+    "spread_capture": 2.9657884319843526,
+    "inventory": -2.461084850742793,
+    "hedge": -1.0128999208308107,
+    "fees": -1.6232058864620686,
+    "total_after_fees": -2.1314022260513203
+   },
+   "max_abs_inventory": 5.0,
+   "hours": 15.999796556944444,
+   "inv_end": -4.0,
+   "symbol": "ESZ5",
+   "config": {
+    "_note": "the passive market maker replayed on the MBO tape: one lot each side at the touch, joined at the back of the queue, re-quoted when the touch moves, inventory hedged at the opposite touch when it reaches the limit",
+    "root": "ES",
+    "size": 1,
+    "inventory_limit": 5
+   }
+  }
+ },
+ "roll": {
+  "ES": {
+   "name": "E-mini S&P 500",
+   "asset_class": "equity",
+   "contracts": 5,
+   "pair_days": 2000,
+   "settlement_from": "2024-09-20",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 1,
+   "exec_cost_usd": 4.15,
+   "events": [
+    {
+     "root": "ES",
+     "near": "ESU26",
+     "far": "ESZ26",
+     "roll_date": "2026-09-11",
+     "spread": 67.75,
+     "spread_usd": 3387.5,
+     "spread_10bd_before": 68.0,
+     "drift_usd": -12.5,
+     "spread_sd_usd_10bd": 36.85792919365444,
+     "volume_crossover": "2026-09-14",
+     "bd_crossover_to_roll": -1,
+     "exec_cost_usd": 4.15,
+     "richness_usd": 871.157297384081,
+     "richness_bp": 91.23839275802618,
+     "roll_cost_long_usd": 3391.65
+    }
+   ],
+   "roll_cost_long_usd": {
+    "mean": 3391.65,
+    "ci": [
+     3391.65,
+     3391.65
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "spread_drift_10bd_usd": {
+    "mean": -12.5,
+    "ci": [
+     -12.5,
+     -12.5
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "implied_financing": {
+    "richness_bp_mean": 50.56035180607573,
+    "richness_bp_ci": [
+     43.25785707151625,
+     57.59988737344165
+    ],
+    "richness_bp_p10_p90": [
+     -27.659096186693265,
+     130.0548327266056
+    ],
+    "implied_r_mean": 0.042533019307591693,
+    "sofr_mean": 0.03747698412698413,
+    "div_yield_mean": 0.010488114578935497,
+    "richness_usd_mean": 479.0743478055014,
+    "days": 252,
+    "from": "2025-09-18",
+    "to": "2026-09-18"
+   },
+   "front_spread_usd_mean": 2679.3500000000004,
+   "share_contango": 1.0
+  },
+  "NQ": {
+   "name": "E-mini Nasdaq-100",
+   "asset_class": "equity",
+   "contracts": 5,
+   "pair_days": 1005,
+   "settlement_from": "2024-09-20",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 1,
+   "exec_cost_usd": 3.4,
+   "events": [
+    {
+     "root": "NQ",
+     "near": "NQU26",
+     "far": "NQZ26",
+     "roll_date": "2026-09-11",
+     "spread": 297.25,
+     "spread_usd": 5945.0,
+     "spread_10bd_before": 296.0,
+     "drift_usd": 25.0,
+     "spread_sd_usd_10bd": 43.874821936960615,
+     "volume_crossover": "2026-09-14",
+     "bd_crossover_to_roll": -1,
+     "exec_cost_usd": 3.4,
+     "richness_usd": 1262.4194968045379,
+     "richness_bp": 86.15290313644303,
+     "roll_cost_long_usd": 5948.4
+    }
+   ],
+   "roll_cost_long_usd": {
+    "mean": 5948.4,
+    "ci": [
+     5948.4,
+     5948.4
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "spread_drift_10bd_usd": {
+    "mean": 25.0,
+    "ci": [
+     25.0,
+     25.0
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "implied_financing": {
+    "richness_bp_mean": 39.4329408777854,
+    "richness_bp_ci": [
+     32.75233583406089,
+     46.36705759119808
+    ],
+    "richness_bp_p10_p90": [
+     -31.164404279738143,
+     129.05844936103784
+    ],
+    "implied_r_mean": 0.041420278214762664,
+    "sofr_mean": 0.03747698412698413,
+    "div_yield_mean": 0.004442552047765717,
+    "richness_usd_mean": 545.4208901975212,
+    "days": 252,
+    "from": "2025-09-18",
+    "to": "2026-09-18"
+   },
+   "front_spread_usd_mean": 4843.757045755969,
+   "share_contango": 0.9602122015915119
+  },
+  "ZN": {
+   "name": "10-Year T-Note",
+   "asset_class": "rates",
+   "contracts": 3,
+   "pair_days": 190,
+   "settlement_from": "2025-12-19",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 1,
+   "exec_cost_usd": 5.60625,
+   "events": [
+    {
+     "root": "ZN",
+     "near": "ZNU26",
+     "far": "ZNZ26",
+     "roll_date": "2026-08-27",
+     "spread": -0.25,
+     "spread_usd": -250.0,
+     "spread_10bd_before": -0.265625,
+     "drift_usd": 15.625,
+     "spread_sd_usd_10bd": 12.325166214790867,
+     "volume_crossover": "2026-08-27",
+     "bd_crossover_to_roll": 0,
+     "exec_cost_usd": 5.60625,
+     "richness_usd": NaN,
+     "richness_bp": NaN,
+     "roll_cost_long_usd": -244.39375
+    }
+   ],
+   "roll_cost_long_usd": {
+    "mean": -244.39375,
+    "ci": [
+     -244.39375,
+     -244.39375
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "spread_drift_10bd_usd": {
+    "mean": 15.625,
+    "ci": [
+     15.625,
+     15.625
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "front_spread_usd_mean": -152.03373015873015,
+   "share_contango": 0.0
+  },
+  "ZB": {
+   "name": "30-Year T-Bond",
+   "asset_class": "rates",
+   "contracts": 3,
+   "pair_days": 190,
+   "settlement_from": "2025-12-19",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 1,
+   "exec_cost_usd": 9.5125,
+   "events": [
+    {
+     "root": "ZB",
+     "near": "ZBU26",
+     "far": "ZBZ26",
+     "roll_date": "2026-08-27",
+     "spread": -0.5,
+     "spread_usd": -500.0,
+     "spread_10bd_before": -0.5,
+     "drift_usd": 0.0,
+     "spread_sd_usd_10bd": 23.05827460539443,
+     "volume_crossover": "2026-08-27",
+     "bd_crossover_to_roll": 0,
+     "exec_cost_usd": 9.5125,
+     "richness_usd": NaN,
+     "richness_bp": NaN,
+     "roll_cost_long_usd": -490.4875
+    }
+   ],
+   "roll_cost_long_usd": {
+    "mean": -490.4875,
+    "ci": [
+     -490.4875,
+     -490.4875
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "spread_drift_10bd_usd": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "front_spread_usd_mean": -392.3611111111111,
+   "share_contango": 0.0
+  },
+  "ZT": {
+   "name": "2-Year T-Note",
+   "asset_class": "rates",
+   "contracts": 3,
+   "pair_days": 176,
+   "settlement_from": "2025-12-31",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 1,
+   "exec_cost_usd": 5.60625,
+   "events": [
+    {
+     "root": "ZT",
+     "near": "ZTU26",
+     "far": "ZTZ26",
+     "roll_date": "2026-08-27",
+     "spread": -0.13671875,
+     "spread_usd": -273.4375,
+     "spread_10bd_before": -0.11328125,
+     "drift_usd": -46.875,
+     "spread_sd_usd_10bd": 12.24235340994079,
+     "volume_crossover": "2026-08-27",
+     "bd_crossover_to_roll": 0,
+     "exec_cost_usd": 5.60625,
+     "richness_usd": NaN,
+     "richness_bp": NaN,
+     "roll_cost_long_usd": -267.83125
+    }
+   ],
+   "roll_cost_long_usd": {
+    "mean": -267.83125,
+    "ci": [
+     -267.83125,
+     -267.83125
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "spread_drift_10bd_usd": {
+    "mean": -46.875,
+    "ci": [
+     -46.875,
+     -46.875
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "front_spread_usd_mean": -98.34558823529412,
+   "share_contango": 0.2857142857142857
+  },
+  "SR3": {
+   "name": "Three-Month SOFR",
+   "asset_class": "rates",
+   "contracts": 13,
+   "pair_days": 12,
+   "settlement_from": "2026-09-18",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 0,
+   "exec_cost_usd": 7.65,
+   "front_spread_usd_mean": -812.4923706054688,
+   "share_contango": 0.0
+  },
+  "ZQ": {
+   "name": "30-Day Fed Funds",
+   "asset_class": "rates",
+   "contracts": 18,
+   "pair_days": 8518,
+   "settlement_from": "2024-09-20",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 0,
+   "exec_cost_usd": 11.8175,
+   "front_spread_usd_mean": -13.779416437642983,
+   "share_contango": 0.3147410358565737
+  },
+  "CL": {
+   "name": "WTI Crude Oil",
+   "asset_class": "energy",
+   "contracts": 35,
+   "pair_days": 17035,
+   "settlement_from": "2024-09-20",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 1,
+   "exec_cost_usd": 8.2,
+   "events": [
+    {
+     "root": "CL",
+     "near": "CLV26",
+     "far": "CLX26",
+     "roll_date": "2026-09-18",
+     "spread": -4.220001220703125,
+     "spread_usd": -4220.001220703125,
+     "spread_10bd_before": -2.910003662109375,
+     "drift_usd": -1309.99755859375,
+     "spread_sd_usd_10bd": 848.6771786713053,
+     "volume_crossover": "2026-09-18",
+     "bd_crossover_to_roll": 0,
+     "exec_cost_usd": 8.2,
+     "richness_usd": NaN,
+     "richness_bp": NaN,
+     "roll_cost_long_usd": -4211.801220703125
+    }
+   ],
+   "roll_cost_long_usd": {
+    "mean": -4211.801220703125,
+    "ci": [
+     -4211.801220703125,
+     -4211.801220703125
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "spread_drift_10bd_usd": {
+    "mean": -1309.99755859375,
+    "ci": [
+     -1309.99755859375,
+     -1309.99755859375
+    ],
+    "n": 1,
+    "sd": null
+   },
+   "front_spread_usd_mean": -125.35842196399946,
+   "share_contango": 0.39243027888446214,
+   "eia": {
+    "rolls": 471,
+    "from": "1985-01-16",
+    "to": "2024-03-18",
+    "roll_cost_long_usd": {
+     "mean": 37.8602972399151,
+     "ci": [
+      -47.855201698513945,
+      123.8480891719747
+     ],
+     "n": 471,
+     "sd": 946.7655415885636
+    },
+    "roll_cost_last_year_usd": {
+     "mean": -234.30000000000086,
+     "ci": [
+      -493.4875000000008,
+      5.72083333333083
+     ],
+     "n": 12,
+     "sd": 456.2520236567821
+    },
+    "share_contango": 0.5690021231422505,
+    "drift_usd_10bd": {
+     "mean": -16.518046709129443,
+     "ci": [
+      -60.368895966029264,
+      28.43046709129566
+     ],
+     "n": 471,
+     "sd": 489.18666670953854
+    },
+    "by_year": [
+     {
+      "year": 1985,
+      "mean": -742.633333333334,
+      "count": 12
+     },
+     {
+      "year": 1986,
+      "mean": -155.9666666666667,
+      "count": 12
+     },
+     {
+      "year": 1987,
+      "mean": -317.6333333333334,
+      "count": 12
+     },
+     {
+      "year": 1988,
+      "mean": -136.79999999999959,
+      "count": 12
+     },
+     {
+      "year": 1989,
+      "mean": -652.633333333333,
+      "count": 12
+     },
+     {
+      "year": 1990,
+      "mean": -90.13333333333311,
+      "count": 12
+     },
+     {
+      "year": 1991,
+      "mean": -365.1333333333334,
+      "count": 12
+     },
+     {
+      "year": 1992,
+      "mean": 44.03333333333271,
+      "count": 12
+     },
+     {
+      "year": 1993,
+      "mean": 279.8666666666666,
+      "count": 12
+     },
+     {
+      "year": 1994,
+      "mean": -80.1333333333328,
+      "count": 12
+     },
+     {
+      "year": 1995,
+      "mean": -239.3000000000002,
+      "count": 12
+     },
+     {
+      "year": 1996,
+      "mean": -1023.4666666666662,
+      "count": 12
+     },
+     {
+      "year": 1997,
+      "mean": -10.966666666666411,
+      "count": 12
+     },
+     {
+      "year": 1998,
+      "mean": 404.8666666666666,
+      "count": 12
+     },
+     {
+      "year": 1999,
+      "mean": -40.96666666666634,
+      "count": 12
+     },
+     {
+      "year": 2000,
+      "mean": -1097.6333333333334,
+      "count": 12
+     },
+     {
+      "year": 2001,
+      "mean": -12.63333333333244,
+      "count": 12
+     },
+     {
+      "year": 2002,
+      "mean": -82.63333333333303,
+      "count": 12
+     },
+     {
+      "year": 2003,
+      "mean": -770.966666666667,
+      "count": 12
+     },
+     {
+      "year": 2004,
+      "mean": -327.63333333333395,
+      "count": 12
+     },
+     {
+      "year": 2005,
+      "mean": 677.3666666666655,
+      "count": 12
+     },
+     {
+      "year": 2006,
+      "mean": 1181.5333333333344,
+      "count": 12
+     },
+     {
+      "year": 2007,
+      "mean": 306.53333333333205,
+      "count": 12
+     },
+     {
+      "year": 2008,
+      "mean": 268.1999999999986,
+      "count": 12
+     },
+     {
+      "year": 2009,
+      "mean": 1744.8666666666634,
+      "count": 12
+     },
+     {
+      "year": 2010,
+      "mean": 914.8666666666686,
+      "count": 12
+     },
+     {
+      "year": 2011,
+      "mean": 574.0333333333374,
+      "count": 12
+     },
+     {
+      "year": 2012,
+      "mean": 373.19999999999845,
+      "count": 12
+     },
+     {
+      "year": 2013,
+      "mean": 187.36666666666952,
+      "count": 12
+     },
+     {
+      "year": 2014,
+      "mean": -660.966666666665,
+      "count": 12
+     },
+     {
+      "year": 2015,
+      "mean": 849.0333333333336,
+      "count": 12
+     },
+     {
+      "year": 2016,
+      "mean": 930.6999999999992,
+      "count": 12
+     },
+     {
+      "year": 2017,
+      "mean": 337.3666666666675,
+      "count": 12
+     },
+     {
+      "year": 2018,
+      "mean": -125.13333333333463,
+      "count": 12
+     },
+     {
+      "year": 2019,
+      "mean": 137.36666666666702,
+      "count": 12
+     },
+     {
+      "year": 2020,
+      "mean": 756.5333333333315,
+      "count": 12
+     },
+     {
+      "year": 2021,
+      "mean": -207.63333333333242,
+      "count": 12
+     },
+     {
+      "year": 2022,
+      "mean": -1171.7999999999997,
+      "count": 12
+     },
+     {
+      "year": 2023,
+      "mean": -76.80000000000085,
+      "count": 12
+     },
+     {
+      "year": 2024,
+      "mean": -368.46666666666516,
+      "count": 3
+     }
+    ],
+    "abs_roll_cost_usd": {
+     "mean": 594.8878980891717,
+     "ci": [
+      530.2613163481949,
+      665.61110403397
+     ],
+     "n": 471,
+     "sd": 736.991770965086
+    }
+   }
+  },
+  "NG": {
+   "name": "Henry Hub Natural Gas",
+   "asset_class": "energy",
+   "contracts": 36,
+   "pair_days": 17539,
+   "settlement_from": "2024-09-20",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 0,
+   "exec_cost_usd": 8.2,
+   "front_spread_usd_mean": -99.80066838967372,
+   "share_contango": 0.603585657370518,
+   "eia": {
+    "rolls": 363,
+    "from": "1994-01-25",
+    "to": "2024-03-22",
+    "roll_cost_long_usd": {
+     "mean": 726.3267217630856,
+     "ci": [
+      518.7702479338843,
+      941.7475206611572
+     ],
+     "n": 363,
+     "sd": 2093.8995357144504
+    },
+    "roll_cost_last_year_usd": {
+     "mean": 964.3538461538463,
+     "ci": [
+      -54.89615384615335,
+      1822.1999999999998
+     ],
+     "n": 13,
+     "sd": 1859.150964201753
+    },
+    "share_contango": 0.8016528925619835,
+    "drift_usd_10bd": {
+     "mean": -204.76454293628777,
+     "ci": [
+      -340.0796398891965,
+      -81.042243767313
+     ],
+     "n": 361,
+     "sd": 1273.752990385923
+    },
+    "by_year": [
+     {
+      "year": 1994,
+      "mean": 495.6999999999996,
+      "count": 12
+     },
+     {
+      "year": 1995,
+      "mean": 141.53333333333364,
+      "count": 12
+     },
+     {
+      "year": 1996,
+      "mean": -1328.4666666666667,
+      "count": 12
+     },
+     {
+      "year": 1997,
+      "mean": -179.3000000000003,
+      "count": 12
+     },
+     {
+      "year": 1998,
+      "mean": 724.0333333333334,
+      "count": 12
+     },
+     {
+      "year": 1999,
+      "mean": 674.8666666666664,
+      "count": 12
+     },
+     {
+      "year": 2000,
+      "mean": -309.3000000000006,
+      "count": 12
+     },
+     {
+      "year": 2001,
+      "mean": 545.6999999999988,
+      "count": 12
+     },
+     {
+      "year": 2002,
+      "mean": 710.6999999999999,
+      "count": 12
+     },
+     {
+      "year": 2003,
+      "mean": -880.9666666666675,
+      "count": 12
+     },
+     {
+      "year": 2004,
+      "mean": 2439.8666666666663,
+      "count": 12
+     },
+     {
+      "year": 2005,
+      "mean": 1574.0333333333365,
+      "count": 12
+     },
+     {
+      "year": 2006,
+      "mean": 3869.033333333331,
+      "count": 12
+     },
+     {
+      "year": 2007,
+      "mean": 2357.3666666666663,
+      "count": 12
+     },
+     {
+      "year": 2008,
+      "mean": 947.3666666666672,
+      "count": 12
+     },
+     {
+      "year": 2009,
+      "mean": 2533.200000000001,
+      "count": 12
+     },
+     {
+      "year": 2010,
+      "mean": 728.2000000000003,
+      "count": 12
+     },
+     {
+      "year": 2011,
+      "mean": 554.8666666666679,
+      "count": 12
+     },
+     {
+      "year": 2012,
+      "mean": 972.3666666666671,
+      "count": 12
+     },
+     {
+      "year": 2013,
+      "mean": 439.8666666666665,
+      "count": 12
+     },
+     {
+      "year": 2014,
+      "mean": -479.30000000000035,
+      "count": 12
+     },
+     {
+      "year": 2015,
+      "mean": 554.8666666666667,
+      "count": 12
+     },
+     {
+      "year": 2016,
+      "mean": 854.8666666666663,
+      "count": 12
+     },
+     {
+      "year": 2017,
+      "mean": 626.5333333333334,
+      "count": 12
+     },
+     {
+      "year": 2018,
+      "mean": -140.1333333333329,
+      "count": 12
+     },
+     {
+      "year": 2019,
+      "mean": 169.86666666666625,
+      "count": 12
+     },
+     {
+      "year": 2020,
+      "mean": 1304.0333333333335,
+      "count": 12
+     },
+     {
+      "year": 2021,
+      "mean": 323.20000000000124,
+      "count": 12
+     },
+     {
+      "year": 2022,
+      "mean": 724.0333333333347,
+      "count": 12
+     },
+     {
+      "year": 2023,
+      "mean": 1139.0333333333335,
+      "count": 12
+     },
+     {
+      "year": 2024,
+      "mean": -465.133333333333,
+      "count": 3
+     }
+    ],
+    "abs_roll_cost_usd": {
+     "mean": 1243.604958677686,
+     "ci": [
+      1061.9520936639117,
+      1447.4617906336082
+     ],
+     "n": 363,
+     "sd": 1833.7386821300317
+    }
+   }
+  },
+  "GC": {
+   "name": "Gold",
+   "asset_class": "metals",
+   "contracts": 14,
+   "pair_days": 3498,
+   "settlement_from": "2024-09-20",
+   "settlement_to": "2026-09-18",
+   "rolls_observed": 0,
+   "exec_cost_usd": 8.5,
+   "front_spread_usd_mean": 2837.644827532435,
+   "share_contango": 1.0
+  }
+ },
+ "book": {
+  "from": "2026-08-19",
+  "to": "2026-09-18",
+  "days": 22,
+  "positions": [
+   {
+    "root": "ES",
+    "qty": 40,
+    "role": "core",
+    "pair": "equity"
+   },
+   {
+    "root": "NQ",
+    "qty": -20,
+    "role": "hedge",
+    "pair": "equity"
+   },
+   {
+    "root": "ZN",
+    "qty": 100,
+    "role": "core",
+    "pair": "curve"
+   },
+   {
+    "root": "ZB",
+    "qty": -30,
+    "role": "hedge",
+    "pair": "curve"
+   },
+   {
+    "root": "CL",
+    "qty": 25,
+    "role": "core",
+    "pair": "energy"
+   },
+   {
+    "root": "GC",
+    "qty": 10,
+    "role": "core",
+    "pair": "metals"
+   }
+  ],
+  "components_usd": {
+   "variation": 42113.02795410156,
+   "price": 48713.02795410156,
+   "roll": -6600.0,
+   "execution": -1080.0,
+   "financing": -4563.7361388888885,
+   "total": 36469.29181521258
+  },
+  "identity_gap_usd": 0.0,
+  "by_role_usd": {
+   "core": {
+    "variation": 21963.03,
+    "price": 132463.03,
+    "roll": -110500.0,
+    "execution": -726.62
+   },
+   "hedge": {
+    "variation": 20150.0,
+    "price": -83750.0,
+    "roll": 103900.0,
+    "execution": -353.38
+   }
+  },
+  "by_root_usd": {
+   "CL": {
+    "variation": 406000.14,
+    "price": 406000.14,
+    "roll": 0.0,
+    "execution": 0.0,
+    "rolls": 0
+   },
+   "ES": {
+    "variation": -138500.0,
+    "price": -3000.0,
+    "roll": -135500.0,
+    "execution": -166.0,
+    "rolls": 1
+   },
+   "GC": {
+    "variation": 2900.39,
+    "price": 2900.39,
+    "roll": 0.0,
+    "execution": 0.0,
+    "rolls": 0
+   },
+   "NQ": {
+    "variation": -13600.0,
+    "price": -132500.0,
+    "roll": 118900.0,
+    "execution": -68.0,
+    "rolls": 1
+   },
+   "ZB": {
+    "variation": 33750.0,
+    "price": 48750.0,
+    "roll": -15000.0,
+    "execution": -285.38,
+    "rolls": 1
+   },
+   "ZN": {
+    "variation": -248437.5,
+    "price": -273437.5,
+    "roll": 25000.0,
+    "execution": -560.62,
+    "rolls": 1
+   }
+  },
+  "avg_initial_margin_usd": 1449700.0,
+  "avg_notional_usd": 47893225.610767715,
+  "variation_daily_sd_usd": 96772.61382736664,
+  "worst_day_usd": -158949.99237060547,
+  "worst_day": "2026-09-04",
+  "best_day_usd": 173550.0457763672,
+  "max_drawdown_usd": -345563.28735069436,
+  "rolls": [
+   {
+    "date": "2026-09-14",
+    "root": "ES",
+    "code": "ESZ26",
+    "qty": 40,
+    "spread_paid": 67.75,
+    "roll": -135500.0,
+    "execution": -166.0
+   },
+   {
+    "date": "2026-09-14",
+    "root": "NQ",
+    "code": "NQZ26",
+    "qty": -20,
+    "spread_paid": 297.25,
+    "roll": 118900.0,
+    "execution": -68.0
+   },
+   {
+    "date": "2026-08-28",
+    "root": "ZN",
+    "code": "ZNZ26",
+    "qty": 100,
+    "spread_paid": -0.25,
+    "roll": 25000.0,
+    "execution": -560.625
+   },
+   {
+    "date": "2026-08-28",
+    "root": "ZB",
+    "code": "ZBZ26",
+    "qty": -30,
+    "spread_paid": -0.5,
+    "roll": -15000.0,
+    "execution": -285.375
+   }
+  ],
+  "financing_share_of_gross_pnl": 0.002571897057886418
+ },
+ "monitor": {
+  "fault_days": 20,
+  "clean_days": 20,
+  "injected": 120,
+  "caught": 116,
+  "detection_rate": 0.9666666666666667,
+  "median_ttd_s": 0.0,
+  "false_alerts_per_clean_day": 0.0,
+  "clean_day_alerts_by_rule": {},
+  "alerts_per_fault_day": 73.3,
+  "by_kind": {
+   "fat_finger": {
+    "injected": 10,
+    "caught": 10,
+    "median_ttd_s": 0.0,
+    "rules": [
+     "FAT_FINGER"
+    ]
+   },
+   "wrong_side": {
+    "injected": 11,
+    "caught": 11,
+    "median_ttd_s": 0.0,
+    "rules": [
+     "POSITION_JUMP"
+    ]
+   },
+   "duplicate_fill": {
+    "injected": 12,
+    "caught": 12,
+    "median_ttd_s": 5.0,
+    "rules": [
+     "DUPLICATE_FILL"
+    ]
+   },
+   "bad_price": {
+    "injected": 13,
+    "caught": 13,
+    "median_ttd_s": 0.0,
+    "rules": [
+     "PRICE_BAND"
+    ]
+   },
+   "stale_feed": {
+    "injected": 11,
+    "caught": 11,
+    "median_ttd_s": 128.49245506137777,
+    "rules": [
+     "STALE_MARK"
+    ]
+   },
+   "missed_roll": {
+    "injected": 11,
+    "caught": 11,
+    "median_ttd_s": 0.0,
+    "rules": [
+     "DELIVERY_RISK",
+     "EXPIRY_RISK"
+    ]
+   },
+   "margin_shock": {
+    "injected": 13,
+    "caught": 13,
+    "median_ttd_s": 9.456103641980008,
+    "rules": [
+     "MARGIN_CALL"
+    ]
+   },
+   "hedge_dropped": {
+    "injected": 14,
+    "caught": 11,
+    "median_ttd_s": 0.0,
+    "rules": [
+     "PAIR_BROKEN"
+    ]
+   },
+   "limit_breach": {
+    "injected": 11,
+    "caught": 11,
+    "median_ttd_s": 0.0,
+    "rules": [
+     "POSITION_LIMIT"
+    ]
+   },
+   "phantom_fill": {
+    "injected": 8,
+    "caught": 8,
+    "median_ttd_s": 13892.973667810678,
+    "rules": [
+     "RECON_BREAK"
+    ]
+   },
+   "drawdown": {
+    "injected": 6,
+    "caught": 5,
+    "median_ttd_s": 1.747224272143285,
+    "rules": [
+     "PNL_DRAWDOWN"
+    ]
+   }
+  },
+  "limits": {
+   "position": {
+    "ES": 100,
+    "NQ": 60,
+    "ZN": 250,
+    "ZB": 100,
+    "ZT": 300,
+    "SR3": 500,
+    "ZQ": 500,
+    "CL": 60,
+    "NG": 60,
+    "GC": 30
+   },
+   "gross_notional_usd": 120000000.0,
+   "margin_usage": 0.6,
+   "maintenance_usage": 0.85,
+   "fnd_warning_bd": 1,
+   "stale_s": 120.0,
+   "price_band_ticks": {
+    "ES": 40,
+    "NQ": 120,
+    "ZN": 24,
+    "ZB": 24,
+    "ZT": 12,
+    "SR3": 8,
+    "ZQ": 8,
+    "CL": 120,
+    "NG": 120,
+    "GC": 120
+   },
+   "max_clip": {
+    "ES": 50,
+    "NQ": 30,
+    "ZN": 120,
+    "ZB": 50,
+    "ZT": 100,
+    "SR3": 200,
+    "ZQ": 200,
+    "CL": 30,
+    "NG": 30,
+    "GC": 15
+   },
+   "pair_tolerance": 0.35,
+   "drawdown_usd": 250000.0,
+   "check_every_s": 15.0
+  }
+ },
+ "matching": {
+  "resting": [
+   100,
+   50,
+   30,
+   1
+  ],
+  "incoming": 60,
+  "rules": {
+   "FIFO": {
+    "1": 60
+   },
+   "pro-rata, 2-lot minimum, no TOP": {
+    "1": 35,
+    "2": 16,
+    "3": 9
+   },
+   "Allocation: TOP (max 10) + pro-rata + FIFO leftover": {
+    "1": 38,
+    "2": 14,
+    "3": 8
+   },
+   "split 40 % FIFO / 60 % pro-rata": {
+    "1": 43,
+    "2": 11,
+    "3": 6
+   }
+  },
+  "implied": {
+   "before": {
+    "leg1": {
+     "bid": [
+      1000,
+      10
+     ],
+     "ask": [
+      1002,
+      10
+     ],
+     "bid_real": [
+      1000,
+      10
+     ],
+     "ask_real": [
+      1002,
+      10
+     ]
+    },
+    "leg2": {
+     "bid": [
+      990,
+      4
+     ],
+     "ask": [
+      993,
+      6
+     ],
+     "bid_real": [
+      990,
+      4
+     ],
+     "ask_real": [
+      993,
+      6
+     ]
+    },
+    "spread": {
+     "bid": [
+      7,
+      6
+     ],
+     "ask": [
+      12,
+      4
+     ],
+     "bid_real": [
+      null,
+      0
+     ],
+     "ask_real": [
+      null,
+      0
+     ]
+    }
+   },
+   "sell_2_spread_at_7": [
+    {
+     "taker_id": 6,
+     "maker_id": -2,
+     "price": 7,
+     "qty": 2,
+     "book": "spread",
+     "via": "implied"
+    }
+   ],
+   "leg_fills": [
+    {
+     "taker_id": -2,
+     "maker_id": 1,
+     "price": 1000,
+     "qty": 2,
+     "book": "leg1",
+     "via": "implied-leg"
+    },
+    {
+     "taker_id": -2,
+     "maker_id": 4,
+     "price": 993,
+     "qty": 2,
+     "book": "leg2",
+     "via": "implied-leg"
+    }
+   ],
+   "after": {
+    "leg1": {
+     "bid": [
+      1000,
+      8
+     ],
+     "ask": [
+      1002,
+      10
+     ],
+     "bid_real": [
+      1000,
+      8
+     ],
+     "ask_real": [
+      1002,
+      10
+     ]
+    },
+    "leg2": {
+     "bid": [
+      990,
+      4
+     ],
+     "ask": [
+      993,
+      4
+     ],
+     "bid_real": [
+      990,
+      4
+     ],
+     "ask_real": [
+      993,
+      4
+     ]
+    },
+    "spread": {
+     "bid": [
+      7,
+      4
+     ],
+     "ask": [
+      12,
+      4
+     ],
+     "bid_real": [
+      null,
+      0
+     ],
+     "ask_real": [
+      null,
+      0
+     ]
+    }
+   }
+  }
+ },
+ "seconds": 61.21733700000914
+}
